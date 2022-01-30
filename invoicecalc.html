@@ -80,23 +80,23 @@
                 </thead>
                 <tbody>
                     <tr id="bg2">
-                        <th scope="row" >Discount ($)</th>
-                        <td class="col-1" >10</td>
+                        <th scope="row" class="col-md-6">Discount ($)</th>
+                        <td class="col-1" id="disc">20</td>
 
                     </tr>
                     <tr id="bg">
                         <th id="bg">Tax (G.C.T)16.5% ($)</th>
-                        <td class="col-1" 20</td>
+                        <td class="col-1" id="tax"></td>
 
                     </tr>
                     <tr id="bg2">
                         <th scope="row" >Total ($)</th>
-                        <td class="col-1" >30</td>
+                        <td id="max_total">1</td>
                     </tr>
                 </tbody>
             </table>
 
-            <button class="btn btn-primary offset-5 mb-2" onclick="add_1(), add_2(), add_3(), add_4(), total()">Calculate</button>
+            <button class="btn btn-primary offset-5 mb-2" onclick="add_1(), add_2(), add_3(), add_4(), total(), discount()">Calculate</button>
     </main>
 
 
